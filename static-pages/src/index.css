@@ -37,11 +37,13 @@ main > h1{
   font-weight: 700;
   padding-top: 40px;
   padding-bottom: 20px;
+  font-size: 2.4rem;
 }
 
 main > ul {
   margin-left: 30px;
   padding-bottom: 100px;
+  max-width: 400px;
 }
 
 ul > li{
@@ -52,4 +54,12 @@ ul > li{
 
 main{
   background-color: #282D35;
+  background-image: url("./assets/react-logo-half.png");
+  background-repeat: no-repeat;
+  background-position: right 70%;
+}
+
+ul > li::marker{
+  color: #61DAFB;
+  font-size: 1.5rem;
 }
